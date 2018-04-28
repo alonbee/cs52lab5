@@ -1,3 +1,18 @@
+
+Creating a list of Restful API for a blog post app using Node.js(Express) + Mongodb + Mongoose
+
+To recap the API has the following endpoints:
+
+GET /api/posts/ returns only title and tags for all posts [[{"id":"",title":"","tags":""},...]
+POST /api/posts/ with post parameters {'title', 'tags', 'content'} creates a new post
+PUT /api/posts/:postID with parameters {'title', 'tags', 'content'} will update an entry
+GET /api/posts/:postID returns the post found at postID
+DELETE /api/posts/:postID deletes the post found at postID
+
+See more in https://dartmouth-cs52-17s.github.io/assignments/lab/redux-blog+server/
+
+
+
 # Lab 5 
 
 * Blog backend deployed on heroku 
